@@ -8,6 +8,7 @@ void DFT( double *xr, double *xi, double *Xr, double *Xi, int N )
   int k, n;
   double wr, wi;
 
+  printf("start\n");
   for( k = 0 ; k < N ; k++ ) {
     Xr[k] = Xi[k] = 0.0;
     for( n = 0 ; n < N ; n++ ) {
