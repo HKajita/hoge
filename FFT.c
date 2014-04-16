@@ -4,6 +4,7 @@
 
 void FFT( double *xr, double *xi, double *Xr, double *Xi, int N )
 {
+//更新したよ
   int i, j, k, n, n2;
   double theta, wr, wi;
 
